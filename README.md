@@ -5,5 +5,6 @@
 3. cd buildroot
 4. make BR2_EXTERNAL=../external_packages/ menuconfig 
 5. Select all external packages  and save
-5. make -j8
+6. make linux-clean
+7. make -j8
 
