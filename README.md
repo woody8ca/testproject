@@ -4,4 +4,6 @@
 2. cp buildrootdotconfig buildroot
 3. cd buildroot
 4. make BR2_EXTERNAL=../external_packages/ menuconfig 
+5. Select all external packages  and save
 5. make -j8
+
