@@ -62,9 +62,9 @@ bool MessageReader::isCanonical() {
     allocatedArena = true;
   }
 
-  _::SegmentReader *segment = arena()->tryGetSegment(_::SegmentId(0));
+  _::SegmentReader *segment_ = arena()->tryGetSegment(_::SegmentId(0));
 
-  if (segment == NULL) {
+  if (segment_ == NULL) {
     // The message has no segments
     return false;
   }
