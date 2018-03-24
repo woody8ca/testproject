@@ -1,4 +1,4 @@
-# Testproject abc
+# Testproject abcdef
 
 1. git submodule update --init
 2. cp buildrootdotconfig buildroot
